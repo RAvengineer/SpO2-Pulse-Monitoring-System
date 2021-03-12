@@ -14,8 +14,8 @@ char auth[] = "NaZgjhHT4oxT5rT3tFoE4WkeRxegj8RQ";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "iBall-Baton";
-char pass[] = "ARcHEs1952";
+char ssid[] = "YOUR-WIFI-SSID";
+char pass[] = "YOUR-WIFI-PWD";
 
 MAX30105 particleSensor;
 

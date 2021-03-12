@@ -32,14 +32,14 @@ int beatAvg;
 bool notifyBPM = false;
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-// char blynkAuth[] = "NaZgjhHT4oxT5rT3tFoE4WkeRxegj8RQ"; // Rahul Bera's project auth token
-char blynkAuth[] = "X45G8bdHeq8kE4eggJeKm77OCe6NqFlu"; // Prakrit Raj's project auth token
+// char blynkAuth[] = "YOUR-BLYNK-PROJECT-AUTH-TOKEN"; // Rahul Bera's project auth token
+char blynkAuth[] = "YOUR-BLYNK-PROJECT-AUTH-TOKEN"; // Prakrit Raj's project auth token
 BlynkTimer sendTimer;
 WidgetLCD lcd(V5); // Configure Virtual Pin V5 of Blynk for LCD
 // Variables for ESP8266
 // Set password to "" for open networks.
-char ssid[] = "iBall-Baton";
-char pass[] = "ARcHEs1952";
+char ssid[] = "YOUR-WIFI-SSID";
+char pass[] = "YOUR-WIFI-PWD";
 
 /* Custom Functions */
 void getHeartRate(){

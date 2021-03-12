@@ -37,8 +37,8 @@ BlynkTimer sendTimer;
 WidgetLCD lcd(V5); // Configure Virtual Pin V5 of Blynk for LCD
 // Variables for ESP8266
 // Set password to "" for open networks.
-char ssid[] = "iBall-Baton";
-char pass[] = "ARcHEs1952";
+char ssid[] = "YOUR-WIFI-SSID";
+char pass[] = "YOUR-WIFI-PWD";
 
 /* Custom Functions */
 void getHeartRate(){
